@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Enhancement Three</title>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+  <h1 style="color:white">Enhancement Three: Animal Database and Dashboard</h1>
+</header>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="enhancement_one.html">Enhancement One</a>
+    <a href="enhancement_two.html">Enhancement Two</a>
+    <a href="enhancement_three.html">Enhancement Three</a>
+    <a href="code_review.html">Code Review</a>
+</nav>
+    
+<section>
+    <div class="header-with-button">
+        <h2>Overview</h2>
+        <a 
+            href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io/tree/main/Enhancement%20Three" 
+            class="repo-button" 
+            target="_blank"
+        >
+            View Project in Repository
+        </a>
+    </div>
+    <p>
+        The <strong>Animal Database and Dashboard</strong> is a Mongo database, with a user dashboard. It consists of
+        the Mongo database, a Python driver class, and a DASH dashboard. Furthermore the project has a README file that
+        walks users and stakeholders on how to install the system to their Linux system.
+        Developed originally in CS-340: Client/Server Development, the system underwent 
+        significant upgrades in <strong>Enhancement Three</strong> as part of my 
+        <strong>CS-499: Computer Science Capstone</strong>.
+    </p>
+    <p>
+        These enhancements focused on implementing industry-standard solutions, improving 
+        user interactivity, and ensuring secure, reliable data handling in the Windows system. The overall
+        enhancement allows the user to install and run the system on a Windows system instead of Linux. Furthermore
+        a testing class is created to ensure proper functionality and connection to the database. Lastly the 
+        updated README provides insight on how to install and run the system while also showing and explaining to the
+        user the various features of the dashboard.
+    </p>
+</section>
+
+<section>
+    <h2>Key Improvements</h2>
+    <ul>
+        <li>
+            <strong>New MongoDB Database:</strong> The database needed to be created on Windows. 
+        </li>
+        <li>
+            <strong>Proper Testing:</strong> A testing class was created to allow users to ensure that the system 
+            is able to connect to the database and perform various functions as needed.
+        </li>
+        <li>
+            <strong>Created a DASH Dashboard:</strong> Created a DASH dashboard so that the user is able to see all 
+            of the animals in the database on a data table, offer filtering options, as well as display important information 
+            such as the breed breakdown and location in easy to view charts and maps.
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Technical Implementation</h2>
+    <p>The following changes were implemented to enhance the system:</p>
+    <ul>
+        <li>
+            Created the database to hold the animal data. This was done using MongoDB compass. For how it was done step 
+            by step you can consult the README file.
+        </li>
+        <li>
+            The testing class ensures that the main driver class functions properly. It tests that the driver class can properly 
+            connect to the user database. After that the system tests that it can create different type of animals and add them to the 
+            database, and that the proper exception is thrown when the user tries to create an invalid item. Then it ensures it is able to 
+            retrieve infromation from the database and ensure that it throws the right execption when it tries to process an invalid querie. 
+            It tests that the system can properl yupdate differeent items, and throw the correct exception when it is uanable too for any given reason. 
+            Lastly it checks that entries can be deleted and that an exception is thrown when it is not able to do so for any reason. This testing class is 
+            very important in ensuring that the database and its connections work properly.
+        </li>
+        <li>
+            The user dashboard was created using DASH which is a low-code framework for rapidly building data apps in Python. The dashboard will connect to the
+            database and display the database information in a data table that user is able to filter through. The system also has 3 filters for different types of
+            search and rescue options, and a reset option. Below the datatable there is a Pie chart of the animals in the database broken down by 
+            their breed, and next to it is a map that shows the location of the selected animal or the first animal in the datatable. When the user 
+            uses one of the filter options (whether one of the built in ones, or they filter through the data table) the pie chart and map will both update
+            accordingly to reflect the changes.
+        </li>
+        <li>
+            Other small improvements to the system include adding proper error handling to the create, read, update, and 
+            delete methods.
+        </li>
+    </ul>
+</section>
+
+<footer class="ignore-css">
+    &copy; 2025 Juan Cervantes Ortiz | <a href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io" target="_blank">GitHub Repository</a>
+</footer>
+
+</body>
+</html>

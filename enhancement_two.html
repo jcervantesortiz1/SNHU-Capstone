@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Enhancement Two</title>
+    
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+<header>
+    <h1 style="color:white">Enhancement Two: Grazioso Salvare Pet Management System</h1>
+</header>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="enhancement_one.html">Enhancement One</a>
+    <a href="enhancement_two.html">Enhancement Two</a>
+    <a href="enhancement_three.html">Enhancement Three</a>
+    <a href="code_review.html">Code Review</a>
+</nav>
+    
+<section>
+    <div class="header-with-button">
+        <h2>Overview</h2>
+        <a 
+            href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io/tree/main/Enhancement%20Two" 
+            class="repo-button" 
+            target="_blank"
+        >
+            View Project in Repository
+        </a>
+    </div>
+    <p>
+        The <strong>Grazioso Salvare Pet Management System</strong> is a Java based system that gives the user
+        the ability to see and manage dogs and monkeys from the Grazioso Salvare system. The user is able to add
+        a dog or moneky to the system, view a list of the animals, and lastly reserve an animal. The system is a 
+        console application.
+        Developed originally in IT-145: Foundation in Application Development, the system underwent 
+        significant upgrades in <strong>Enhancement Two</strong> as part of my 
+        <strong>CS-499: Computer Science Capstone</strong>.
+    </p>
+    <p>
+        These enhancements focused on implementing industry-standard solutions, improving 
+        user interactivity, and ensuring secure, reliable data handling. The system improvemnts look at creating
+        a proper class structure for the system, added secure coding practices to ensure proper system function, 
+        and convert the current Arraylist storage mechanisms so that they use a Hashmap instead.
+    </p>
+</section>
+
+<section>
+    <h2>Key Improvements</h2>
+    <ul>
+        <li>
+            <strong>New Class Structure:</strong> Moved functions to a new Logic.java class that will handle all of
+            the system logic, and only leaving the main method and the menu method in the Driver.java class.
+        </li>
+        <li>
+            <strong>Error Handling:</strong> Added try and catch blocks to ensure that improper input doesn't cause
+            the system to crash.
+        </li>
+        <li>
+            <strong>Created a Remove Animal Method:</strong> Added a way that users can remove an animal from the
+            system if they need to.
+        </li>
+        <li>
+            <strong>Improved Data Storage:</strong> Converted the system to use a Hashmap instead of an Arraylist.
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Technical Implementation</h2>
+    <p>The following changes were implemented to enhance the app:</p>
+    <ul>
+        <li>
+            Created the <code>Logic</code> class to hold all of the system logic, and leaving only the main method
+            and menu method in the Driver.java class, which allows for system upgrades and feature add ons later. The 
+            new Logic.java class also has a Remove animal method that removes an animal from the Hashmap.
+        </li>
+        <li>
+            Added try and catch blocks in any method that requires user input. This ensures that if the user passes in an
+            invalid variable or empty line that the system terminates the process and tells them the input is invalid.
+        </li>
+        <li>
+            The remove method will ask the user for the type of animal they want to remove, and what their name is. The system
+            then will go through the objects key, value pairs and remove the animal.
+        </li>
+        <li>
+            Migrated teh system to use a HashMap instead of an ArrayList. The HashMap allows for items to be found easier. If 
+            the system only has a few animals then there is no recognizable speed differences between using an ArrayList vs a 
+            HashMap, but when looking at a system that perhaps has hundreds of animals, having to iterate through every single item
+            can take up processing power and much more time. 
+        </li>
+    </ul>
+</section>
+
+<footer class="ignore-css">
+    &copy; 2025 Juan Cervantes Ortiz | <a href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io" target="_blank">GitHub Repository</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Enhancement One</title>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  
+<body>
+<header>
+  <h1 style="color:white">Enhancement 1: Inventory Management Application</h1>
+</header>
+    
+<nav>
+    <a href="index.html">Home</a>
+    <a href="enhancement_one.html">Enhancement One</a>
+    <a href="enhancement_two.html">Enhancement Two</a>
+    <a href="enhancement_three.html">Enhancement Three</a>
+    <a href="code_review.html">Code Review</a>
+</nav>
+
+<section>
+    <div class="header-with-button">
+        <h2>Overview</h2>
+        <a 
+            href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io/tree/main/Enhancement%20One" 
+            class="repo-button" 
+            target="_blank"
+        >
+            View Project in Repository
+        </a>
+    </div>
+    <p>
+        The <strong>Inventory Management App</strong> is a mobile application that allows users 
+        to create an invenotry of their choosing, and perform various functions such as adding and removing
+        items, as well as updating them. The application also sends users push notifications when an items
+        inventory quantity is low.
+        Developed originally in CS-360: Mobile Architect & Programming, the app underwent 
+        significant upgrades in <strong>Enhancement One</strong> as part of my 
+        <strong>CS-499: Computer Science Capstone</strong>.
+    </p>
+    <p>
+        These enhancements focused on implementing industry-standard solutions, improving 
+        user interactivity, and ensuring secure, reliable data handling. The applications improvements
+        include creating a way to allow users to stay signed in as well as log out, create a post notficiations
+        system, and lastly add proper input validation to the system.
+    </p>
+</section>
+
+<section>
+    <h2>Key Improvements</h2>
+    <ul>
+        <li>
+            <strong>Input Validation:</strong> Ensured that there are default values for the name, sku, and amount
+            to prevent the application from crashing. Also made it so the system checks that the value passed in
+            is valid before it runs the database command(s).
+        </li>
+        <li>
+            <strong>Improved SMS Notification system:</strong> Fixed SMS notification system to only send the user
+            a text when an item is deleted.
+        </li>
+        <li>
+            <strong>Created Post Notification system:</strong> Added a notifcation system that sends the user
+            an app notification when an item is low in stock.
+        </li>
+        <li>
+            <strong>Login and Logout Functions:</strong> Added shared preferences to ensure user stays signed in 
+            even if they close the application and re-open it.
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Technical Implementation</h2>
+    <p>The following changes were implemented to enhance the app:</p>
+    <ul>
+        <li>
+            Created the <code>InputVlaidation</code> class to validate inputs. Furthermore set the default values of
+            name= "No Name", sku="N/A", and amount "1" if the values passed in are not valid.
+        </li>
+        <li>
+            Integrated the POST_NOTIFICATIONS permission to allow the system to send app notifcations,
+            while also ensuring that the SMS notifications were still active. This allows the app to send
+            an app notification when something is low in stock, and a text message when an item is deleted.
+        </li>
+        <li>
+            Enhanced the Login/Sign Up process to keep users signed in through the use of shared preferences.
+        </li>
+        <li>
+            Implemented detailed user feedback mechanisms, including error messages and 
+            success notifications, to enhance usability.
+        </li>
+    </ul>
+</section>
+
+  <footer class="ignore-css">
+    &copy; 2025 Juan Cervantes Ortiz | <a href="https://github.com/jcervantesortiz1/jcervantesortiz1.github.io" target="_blank">GitHub Repository</a>
+</footer>
+  
+</body>
+</html>
