@@ -1,4 +1,4 @@
- Grazioso Salvare Pet Management System
+# Grazioso Salvare Pet Management System
 
 ## Overview
 The **Grazioso Salvare Pet Management System** is a Java based system that gives various users the ability to add a dog or monkey to the system. The user is also able to reserve an animal, see all the animals in the system, and remove animals from the system. This project was originally developed as part of the **IT-145: Foundation in Application Development** course at SNHU. It reflects key algorithmic and structural principles.
