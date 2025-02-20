@@ -73,6 +73,22 @@ section {
     transition: background-color 0.3s;
 }
 
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
 .ignore-css{
   all:unset;
 }
