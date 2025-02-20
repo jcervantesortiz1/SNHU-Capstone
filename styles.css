@@ -1,0 +1,78 @@
+* {
+  margin: 2;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  background-color: #CAF0F8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #03045E;
+}
+
+.logo {
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background-color: #1d4e89;
+}
+
+nav a {
+  text-align: center;
+  cursor: pointer;
+  border-left: 1px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  color: white;
+}
+
+.button {
+  background-color: #302b2b;
+  padding: 5px 10%;
+  color: white;
+  background-color: #1d4e89;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.repo-button {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #caf0f8; 
+    color: black;
+    font-size: 0.9em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.ignore-css{
+  all:unset;
+}
