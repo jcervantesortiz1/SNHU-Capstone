@@ -89,6 +89,11 @@ iframe {
     border: none;
 }
 
+.container img {
+  object-fit: contain;
+} 
+
+
 .ignore-css{
   all:unset;
 }
