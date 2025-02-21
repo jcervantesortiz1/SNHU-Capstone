@@ -97,7 +97,7 @@ The Inventory Management application after the enhancements offers a better user
 ---
 
 ## Enhanced App Overview
-A video overview can be watched on Youtube by going to this link: <a href="https://youtu.be/TxFq2dgIbdI" class="repo-button" target="_blank"> Inventory Management Overview Video </a>
+A video overview can be watched on Youtube by going to this link: <a href="https://youtu.be/TxFq2dgIbdI" target="_blank"> Inventory Management Overview Video </a>
 
 ## Screenshots
 These images show the various pages the user can access through the use of the Inventory Management Application.
