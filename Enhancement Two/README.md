@@ -49,7 +49,7 @@ This repository documents the enhancements made to the app as part of **Category
    
 ---
 ## Screenshots
-<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Enhancement%202%20Class%20Structure.jpg" width="25%">
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Enhancement%202%20Updated%20Data%20Structure.png" width="100%">
 <p>This is the updated class structure for the system. It consists of five total classes, with the main method being in the Driver class.</p>
 
 ## Acknowledgements
