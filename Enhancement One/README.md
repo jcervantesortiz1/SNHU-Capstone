@@ -16,6 +16,25 @@ This repository documents the enhancements made to the app as part of **Category
 
 ### **Original Project**
 1. **Login and Sign Up Process**
+    - Users are able to login or sign up for the app. If they do not have log in then they can sign up.
+
+2. **Main Screen**
+    - The app uses the RecylceViewer to display the user's inventory, if there is nothing in their inventory then they will be shown a No Data screen.
+
+3. **Add Page**
+    - Users are asked to enter the item infromation, if any infromation it will pass in default values of item name= 'No Name', sku= 'N/A' and amount=1. Once they press the Add Item button it will take them to the home page, now showing the item(s) added.
+  
+4. **Update/Delete Item Page**
+    - The user can either update any or all values of the item or they can choose to delete it. Once the item is updated or deleted, the system will update the main page to reflect the changes.
+
+5. **Delete All Function**
+    - The user can select the three dots and select the delete all option. If the user deletes all of the entries the system will update and show the 'No Data' screen.
+
+6. **SMS Notification**
+    - The system has an SMS function that sends the user a text message anytime they update or delete an item. If the user has no phone number then there is no way for the user to recieve the messages.
+      
+### **Areas of Enhancement**
+1. **Login and Sign Up Process**
     - Users can sign up and log in, but any time the app is closed and re-opened it has them log in again. They dont stay signed in.
 
 2. **Log Out**
