@@ -73,6 +73,9 @@ The below enhancements were implemented to improbe usability, stability, and sec
 ---
 ## Screenshots
 
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Login%20Screen.png" width="25%">
+<p>Image that shows the systems login screen.</p>
+
 ## Acknowledgements
 
 This project was developed originally for **CS-360: Mobile Architect & Programming** and later enhanced in **CS-499: Computer Science Capstone** at SNHU. 
