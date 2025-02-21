@@ -15,9 +15,7 @@ This repository documents the enhancements made to the system as part of **Categ
 ## Features
 
 ### **Original Project**
-### **Original Project Features**
-
-### **Enhancment(s)**
+The original project was created on Linux, and used the MongoDB dashboard to create the animal database. The driver class and dashboard were created using Jupyter Notebook to run the system.
 1. **MongoDB Database**
     - The animal database was created using the command prompt, and was managed using the command line.
 2. **Python Driver Class**
