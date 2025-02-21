@@ -11,8 +11,20 @@ This repository documents the enhancements made to the app as part of **Category
 ---
 
 ## Features
-
 ### **Original Project** 
+1. **RescueAnimal.java**
+    - This class contains the information and variables that the Dog and Monkey inherit from. This method has get and set methods.
+
+2. **Dog.java**
+    - This class contains information and methods specific for dogs. The class inherits from the RescueAnimal class.
+  
+3. **Monkey.java**
+    - This class contains information and methods specific for monkeys. The class inherits from the RescueAnimal class.
+
+4. **Driver.java**
+    - The Main method is in this class. The originial project has all of the different system methods in this class as well.
+
+### **Areas of Enhancement**
 1. **Class Structure**
     - All of the system logic is in the Driver.java class as well as the main method.
       
@@ -25,8 +37,10 @@ This repository documents the enhancements made to the app as part of **Category
 ### **Enhancment(s)**
 1. **Updated Class Structure**
     - Moved all of the system logic to a new Logic.java class, leaving only the main method and the menu method in the Driver.java class.
+      
 2. **Secure Coding**
     - Added secure coding practices to ensure that the system doesn't crash when an invalid character is input.
+      
 3. **Updated to a HashMap Storage System**
     - Updated the system to use a HashMap that uses the Name as the key. This means that each animal must be uniquely named.
       
