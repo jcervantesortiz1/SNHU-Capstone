@@ -144,10 +144,6 @@ iframe {
     transition: transform 0.3s ease;
 }
 
-.screenshot-container img:hover {
-    transform: scale(1.1);
-}
-
 .ignore-css{
   all:unset;
 }
