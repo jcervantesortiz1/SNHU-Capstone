@@ -3,7 +3,7 @@
 ## Overview
 The **Grazioso Salvare Pet Management System** is a Java based system that gives various users the ability to add a dog or monkey to the system. The user is also able to reserve an animal, see all the animals in the system, and remove animals from the system. This project was originally developed as part of the **IT-145: Foundation in Application Development** course at SNHU. It reflects key algorithmic and structural principles.
 
-This repository documents the enhancements made to the app as part of **Category Two Enhancement** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
+This repository documents the enhancements made to the app as part of **Category Two Enhancement: Algorithms and Data Structures** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
 
 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
 
@@ -49,6 +49,8 @@ This repository documents the enhancements made to the app as part of **Category
    
 ---
 ## Screenshots
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Enhancement%202%20Class%20Structure.jpg" width="25%">
+<p>This is the updated class structure for the system. It consists of five total classes, with the main method being in the Driver class.</p>
 
 ## Acknowledgements
 
