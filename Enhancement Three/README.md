@@ -3,7 +3,7 @@
 ## Overview
 The **Animal Database and Dashboard** is a involves a python script that creates, reads, updates, and deletes information from the Animal MongoDB database. It also has a dashboard that retrieves data from the database and displays it on a datatable along with a pie chart of the animals by breed, and a map with the location of the first animal. It also includes a README file for the stakeholders so they may reproduce the system or install it. The enhancements align with industry best practices for scalable and efficient database solutions while improving the system's usability, scalability, and maintainability.
 
-This repository documents the enhancements made to the system as part of **Category Three Enhancement** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
+This repository documents the enhancements made to the system as part of **Category Three Enhancement: Databases** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
 
 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.  
 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.  
@@ -37,12 +37,12 @@ This repository documents the enhancements made to the system as part of **Categ
 ## Portfolio Content
 
 - **Source Code**
-    -'Original Linux Project Files': Files needed to run the project on a Linux system.
-    -'Enhancement Three Project Files': Files needed to run the project on a Window system.
+    - 'Original Linux Project Files': Files needed to run the project on a Linux system.
+    - 'Enhancement Three Project Files': Files needed to run the project on a Window system.
 - **Documentation**
-    -'Original README Linux': System documentation explaining how to install the system on Linux.
-    -'Enhancement Three README Windows': System documentation explaining how to install the system on Windows.
-    -'Enhancement Three Narrative': Narrative explaing the enhancements, and how they aigned with the course outcomes.
+    - 'Original README Linux': System documentation explaining how to install the system on Linux.
+    - 'Enhancement Three README Windows': System documentation explaining how to install the system on Windows.
+    - 'Enhancement Three Narrative': Narrative explaing the enhancements, and how they aigned with the course outcomes.
 ---
 
 ## How to install/run
@@ -53,6 +53,9 @@ This repository documents the enhancements made to the system as part of **Categ
 4. Run the Dashboard.ipynb file and click on the link produced to view the dashboard
 ---
 ## Screenshots
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Enhancement%203%20Dashboard.png" width="100%">
+<p>This image shows users what they will see once the system dashboard is initiated. There is an interactable data table, a pie chart, and a map with the location of the first item in the table</p>
 
 ## Conclusion
 The Grazios Salvare Dashboard is now able to be accessed on a Windows device. Through the use of the new testing class we can ensure that the database connections are done properly. The systems README documentation is also updated to ensure users are able to install it on their local system. Furthermore since the dashboard only has access to retrieve data from the database, there are no security threats.
