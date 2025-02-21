@@ -3,7 +3,7 @@
 ## Overview
 The **Inventory Management App** is an Android mobile application developed to allow users to create and manage their inventory. It will send the users a notification when the amount of an item is low in stock, and a text message if an item is deleted. This project was originally developed as part of the **CS-360: Mobile Architect & Programming** course at SNHU. It reflects key software design and engineering principles.
 
-This repository documents the enhancements made to the app as part of **Category One Enhancement** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
+This repository documents the enhancements made to the app as part of **Category One Enhancement: Software Engineering and Design** for the **CS-499: Computer Science Capstone**. This enhancement aligns with the following course outcomes.
 
 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
@@ -90,7 +90,17 @@ The below enhancements were implemented to improbe usability, stability, and sec
 5. Open
 
 ---
+
+## Conclusion
+The Inventory Management application after the enhancements offers a better user experince. The application has been updated to prevent sudden termination. Prior to the enhancements leaving a field blank in any field resulted in the app stopping. Through the creation of the InputValidation class the system prevents those errors. By updating the notification methods allows for a less intrusive user experience overall. Lastly the login/sign up process now allows users to log out if they want to, but ensures that they stay signed in even if they re-open the app. 
+
+---
+
+## Enhanced App Overview
+A video overview can be watched on Youtube by going to this link: <a href="https://youtu.be/TxFq2dgIbdI" class="repo-button" target="_blank"> Inventory Management Overview Video </a>
+
 ## Screenshots
+These images show the various pages the user can access through the use of the Inventory Management Application.
 
 <img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Login%20Screen.png" width="25%">
 <p>Image that shows the systems login screen.</p>
