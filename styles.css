@@ -118,7 +118,7 @@ iframe {
 }
 
 .screenshot-container img {
-    max-width: 90%; /* Keep images responsive */
+    max-width: 50%; /* Keep images responsive */
     height: auto; /* Maintain aspect ratio */
     border: 1px solid #3a3b4f; 
     border-radius: 5px; 
@@ -135,7 +135,7 @@ iframe {
 }
 
 .screenshot-container img {
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
     border: 1px solid #3a3b4f;
     border-radius: 5px;
