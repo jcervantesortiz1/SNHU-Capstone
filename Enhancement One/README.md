@@ -76,6 +76,33 @@ The below enhancements were implemented to improbe usability, stability, and sec
 <img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Login%20Screen.png" width="25%">
 <p>Image that shows the systems login screen.</p>
 
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Sign%20Up%20Screen.png" width="25%">
+<p>Image that shows the systems sign up screen.</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Main%20Screen%20at%20Initialization.png" width="25%">
+<p>This is a image of what the user will see from the home screen when the app is initialized for the first time and when they have no items in their inventory</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Add%20Item%20Screen.png" width="25%">
+<p>This is a image of what the user will see from the Add Item screen when they press the floating action button</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Main%20Page%20with%20Item.png" width="25%">
+<p>This is a image of what the user will see when there is an item or list of items in their inventory</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Update%20Screen.png" width="25%">
+<p>This is a image of what the user will see when they want to update an item from their inventory</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Delete%20Item%20Confirm.png" width="25%">
+<p>This is a image of what the user will see when they want to delete an item from their inventory. If they select yes then it will delete the entry from the inventory list</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Delete%20All%20Option.png" width="25%">
+<p>This image shows the Delete All function that can be accessed from the main page</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Delete%20All%20Confirm.png" width="25%">
+<p>This image shows the Delete All confirmation box. If the user selects yes then the main page will be empty and show the 'No Data' Message</p>
+
+<img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Notification.png" width="25%">
+<p>This is an example of what a Low Inventory notification will look like if an item's amount is less than or equal to 1</p>
+
 ## Acknowledgements
 
 This project was developed originally for **CS-360: Mobile Architect & Programming** and later enhanced in **CS-499: Computer Science Capstone** at SNHU. 
