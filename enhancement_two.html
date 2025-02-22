@@ -111,15 +111,16 @@
             new Logic.java class also has a Remove animal method that removes an animal from the Hashmap.
         </li>
         <li>
-            Added try and catch blocks in any method that requires user input. This ensures that if the user passes in an
+            Added try-catch blocks in any method that requires user input. This ensures that if the user passes in an
             invalid variable or empty line that the system terminates the process and tells them the input is invalid.
+            Afterwords it will take the user back to the menu.
         </li>
         <li>
             The remove method will ask the user for the type of animal they want to remove, and what their name is. The system
             then will go through the objects key, value pairs and remove the animal.
         </li>
         <li>
-            Migrated teh system to use a HashMap instead of an ArrayList. The HashMap allows for items to be found easier. If 
+            Migrated the system to use a HashMap instead of an ArrayList. The HashMap allows for items to be found easier. If 
             the system only has a few animals then there is no recognizable speed differences between using an ArrayList vs a 
             HashMap, but when looking at a system that perhaps has hundreds of animals, having to iterate through every single item
             can take up processing power and much more time. 
