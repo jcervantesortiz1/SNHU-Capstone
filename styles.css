@@ -107,22 +107,22 @@ iframe {
 
 .screenshot-container figure {
     text-align: center; 
-    margin: 20px 0; /* Adjusted spacing for consistency */
+    margin: 20px 0;
 }
 
 .screenshot-container figcaption {
-    font-weight: bold; /* Make titles bold */
-    font-size: 1.2em; /* Slightly larger font */
-    text-align: center; /* Center titles */
-    margin-bottom: 10px; /* Space between title and image */
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .screenshot-container img {
-    max-width: 90%; /* Keep images responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 90%;
+    height: auto;
     border: 1px solid #3a3b4f; 
     border-radius: 5px; 
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Slightly darker shadow */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 /* Screenshot Grid */
