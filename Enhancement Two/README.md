@@ -66,6 +66,10 @@ This repository documents the enhancements made to the app as part of **Category
 <img src="https://github.com/jcervantesortiz1/SNHU-Capstone/blob/main/Images/Enhancement%202%20Updated%20Data%20Structure.png" width="100%">
 <p>This is the updated class structure for the system. It consists of five total classes, with the main method being in the Driver class.</p>
 
+
+## Conclusion
+This project reflects java programing standards and best practices in regards to algorithms and data structures. The new class structure allows for features to be added easier in the furture. It also makes the project more scalable since additional animals can be added easily with mimimal changes. The use of HashMap allows for faster data retrieval, which will be important if the system has alot of animals in a map at any given point. Lastly the system incoporates proper data validation and ensures that the system functions optimally even if invalid input is passed in.  
+
 ## Acknowledgements
 
 This project was developed originally for **IT-145: Foundation in Application Development** and later enhanced in **CS-499: Computer Science Capstone** at SNHU. 
