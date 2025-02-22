@@ -22,7 +22,7 @@ This repository documents the enhancements made to the app as part of **Category
     - The app uses the RecylceViewer to display the user's inventory, if there is nothing in their inventory then they will be shown a No Data screen.
 
 3. **Add Page**
-    - Users are asked to enter the item infromation, if any infromation it will pass in default values of item name= 'No Name', sku= 'N/A' and amount=1. Once they press the Add Item button it will take them to the home page, now showing the item(s) added.
+    - Users are asked to enter the item infromation. Once they press the Add Item button it will take them to the home page, now showing the item(s) added.
   
 4. **Update/Delete Item Page**
     - The user can either update any or all values of the item or they can choose to delete it. Once the item is updated or deleted, the system will update the main page to reflect the changes.
@@ -58,6 +58,9 @@ The below enhancements were implemented to improbe usability, stability, and sec
 3. **Notification(s)**
     - System will send the user a POST notification when an item's amount is less than or equal to 1.
     - An SMS message will be sent to the phone number on the device if an item is deleted.
+
+4. **Input Validation**
+    - Now when the user leaves a field empty or if any infromation is invalid it will pass in the default values of item name= 'No Name', sku= 'N/A' and amount=1 for the respective field.
 
 ---
 
