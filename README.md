@@ -21,3 +21,16 @@ Course outcomes 3, 4, and 5. The system uses different algorithmic principles an
 
 ### Enhancement Three: Animal Database and Dashboard
 Course outcomes that pertain to this enhancement are 1, 2, 3, and 4. It aligns with the first outcome because the dashboard is one that would be used by various users at a time. This means that the system needs to be able to manage a large number of users at any time. The second outcome is to create professional communications for specific audiences. The project consists of a README file that was created to allow users and stakeholders to install the system on their Windows system. Outcomes three and four pertain to this project because it uses different systems to function so ensuring that they all work together is important. Managing the different limitations of each system is important when working with different systems.
+
+---
+## Enhancement One
+Click the link below to view more information about this enhancement:
+<a href="https://github.com/jcervantesortiz1/SNHU-Capstone/tree/main/Enhancement%20One" target="_blank"> Enhancement One: Inventory Management Application</a>
+
+## Enhancement Two
+Click the link below to view more information about this enhancement:
+<a href="https://github.com/jcervantesortiz1/SNHU-Capstone/tree/main/Enhancement%20Two" target="_blank"> Enhancement Two: Grazioso Salvare Pet Management System</a>
+
+## Enhancement Three
+Click the link below to view more information about this enhancement:
+<a href="https://github.com/jcervantesortiz1/SNHU-Capstone/tree/main/Enhancement%20Three" target="_blank"> Enhancement Three: Animal Database and Dashboard</a>
